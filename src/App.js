@@ -1,13 +1,14 @@
-import React from 'react'
-import Search from './Search'
+import React,{useState} from 'react'
+import Accordion from './Accordion'
+import Convert from './Convert'
 
 
 function App() {
-  
+
   return (
     <div className="ui container">
-     <Search/>
-
+     <Accordion/>
+    <Convert/>
     </div>
   );
 }
